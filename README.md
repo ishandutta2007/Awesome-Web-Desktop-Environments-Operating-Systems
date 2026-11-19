@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
@@ -68,9 +68,9 @@ The sector displays a **moderately concentrated, bifurcated market structure**:
 
 ## 💻 Open-Source GitHub Projects 🛠️
 
-*Ranked in descending order by GitHub stargazer count. Every star badge links directly to that repository's stargazers community.*
+*Ranked in descending order by GitHub stargazer count. Every Stars_Badge links directly to that repository's stargazers community.*
 
-| Project & Repository 📦 | GitHub Stars ⭐ | Primary Tech Stack 🧰 | Architecture & Focus 🎯 |
+| Project & Repository 📦 | GitHub_Stars ⭐ | Primary Tech Stack 🧰 | Architecture & Focus 🎯 |
 | :--- | :--- | :--- | :--- |
 | **[RustDesk](https://github.com/rustdesk/rustdesk)** | [![Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers) | Rust, Flutter, C++ | Full-featured open-source remote desktop client and server software designed as a self-hostable alternative to TeamViewer with an official HTML5 web client. |
 | **[Puter](https://github.com/HeyPuter/puter)** | [![Stars](https://img.shields.io/github/stars/HeyPuter/puter?style=social&color=white)](https://github.com/HeyPuter/puter/stargazers) | JavaScript, Node.js, HTML5 | Internet OS and browser desktop platform providing personal cloud storage, in-browser code editing, window management, and native AI integrations. |
