@@ -1,251 +1,139 @@
-# Awesome-Web-Desktop-Environments-Operating-Systems
+# 🖥️ Awesome Web Desktop Environments & Operating Systems 🌐
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Web Desktop Environments & Operating Systems Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems?style=flat-square" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+---
+
+## 📖 Curated Directory of Web Desktop Environments, WebOS & Cloud VDI 🚀
+
+Welcome to the definitive, curated index of **Web Desktop Environments**, **Browser-Based Operating Systems (WebOS)**, **Containerized Remote Desktops**, and **Cloud Virtual Desktop Infrastructure (VDI / DaaS)**. 
+
+Whether you need low-latency browser streaming via WebRTC/VNC/RDP, client-side WebAssembly x86 PC emulation, modular JavaScript desktop window managers, or enterprise cloud DaaS solutions, this directory covers both battle-tested commercial SaaS platforms and high-performance open-source GitHub repositories.
+
+---
+
+## 📑 Table of Contents 📌
 
-## Top Web Desktop Environments & Operating Systems Ecosystem
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Cloud Desktop Platforms](#️-saas--hosted-cloud-desktop-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics 📈
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+The global Virtual Desktop Infrastructure (VDI) and Desktop-as-a-Service (DaaS) market is valued at approximately **$18.5 Billion to $24 Billion (2024–2026)** and is projected to expand at a compound annual growth rate (CAGR) exceeding **18% to over $60 Billion by 2032**. 
 
-*Focused on Browser-Based Operating Systems, Containerized Linux/Windows Web Desktops, VDI Streaming & WebAssembly Desktop Runtimes*  
+The sector displays a **moderately concentrated, bifurcated market structure**:
+- **Enterprise Core (Concentrated)**: Megacap hyperscalers (Microsoft with Windows 365 / Azure Virtual Desktop, Amazon with AWS WorkSpaces, and Google Cloud Workstations) dominate standard enterprise workforce deployments due to deep enterprise identity, active directory, and productivity bundling advantages.
+- **Specialized Streaming & Open-Source Tier (Highly Fragmented)**: Fast-growing innovator ecosystems thrive around low-latency WebRTC streaming, disposable containerized browser isolation (Kasm Workspaces), GPU rendering/AI workstations (DigitalOcean Paperspace), and pure client-side WebAssembly runtimes (Puter, WebVM, daedalOS, v86).
 
-**Last updated: November 2026**
+---
 
+## ☁️ SaaS & Hosted Cloud Desktop Platforms 🏢
 
+*Ranked in descending order by parent company market capitalization and estimated enterprise scale.*
 
-This repository (`Awesome-Web-Desktop-Environments-Operating-Systems`) tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Web Desktop Environments & Operating Systems** — Top Web Desktop Environments Operating Systems (Opensource) 🌟 Star if you like it! 🌟. These tools stream full Linux and Windows graphical desktop environments to any web browser via WebRTC/VNC/RDP, emulate full operating systems natively in JavaScript and WebAssembly, and power cloud-hosted Virtual Desktop Infrastructure (VDI).
+| Product Name 🖥️ | Provider / Company 🏢 | Scale (Revenue / Valuation) 💰 | Starting Price Tier 💵 | Free Tier / Trial Limit ⏱️ | Key Capabilities & Highlights 🔍 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Windows 365](https://www.microsoft.com/en-us/windows-365)** | Microsoft | $3.1 Trillion Market Cap (~$245B Ann. Rev) | $28.00/user/month (Business 2 vCPU / 4GB RAM / 64GB SSD) | 30-day free trial (up to 3 licenses of Windows 365 Business 2 vCPU / 8GB RAM / 128GB) | Persistent, dedicated Cloud PC streaming personalized Windows 11 directly into modern HTML5 web browsers. |
+| **[Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop)** | Microsoft | $3.1 Trillion Market Cap (~$245B Ann. Rev) | $5.40/user/month (pooled multi-session compute + Azure consumption) | $200 free Azure credits for 30 days + 12 months access to popular free services | Scalable enterprise multi-session Windows 11 and Windows 10 deployment with native Microsoft 365 optimization. |
+| **[Google Cloud Workstations](https://cloud.google.com/workstations)** | Alphabet (Google) | $2.2 Trillion Market Cap (~$350B Ann. Rev) | ~$0.20/hour (~$0.05/vCPU/hr + RAM compute + storage) | $300 free credits for 90 days across Google Cloud Platform | Fully managed containerized developer workstations with in-browser IDEs (VS Code, JetBrains) and web GUIs. |
+| **[Amazon WorkSpaces](https://aws.amazon.com/workspaces/)** | Amazon (AWS) | $2.1 Trillion Market Cap (~$620B Ann. Rev) | $7.25/month + $0.30/hour (or flat $21.00/month flat rate) | Free tier: 2 Standard bundle WorkSpaces up to 40 hours/month for 3 consecutive months | Enterprise managed cloud desktop supporting Windows and Amazon Linux streaming to HTML5 web browsers. |
+| **[DigitalOcean Paperspace Core](https://www.paperspace.com/)** | DigitalOcean | $3.4 Billion Market Cap (~$730M Ann. Rev) | $0.07/hour (or $10.00/month flat rate for standard CPU desktop) | $15 credit upon signup with promotional links; no permanent free compute tier | Low-latency streaming virtual workstations equipped with NVIDIA dedicated GPUs for 3D modeling and machine learning. |
+| **[Dizzion Frame](https://www.dizzion.com/frame/)** | Dizzion (formerly Nutanix Frame) | ~$250 Million Valuation (~$80M Ann. Rev) | $30.00/named user/month | 14-day full feature free trial with pre-configured cloud application sandbox | Cloud-native Desktop-as-a-Service streaming Windows and Linux applications to any browser without client plugins. |
+| **[Kasm Workspaces Cloud](https://kasmweb.com/)** | Kasm Technologies | ~$45 Million Valuation | $5.00/user/month (Kasm Professional plan) | Community Edition free forever (up to 5 concurrent sessions, self-hosted) | Containerized streaming architecture delivering isolated browser sessions, disposable desktops, and secure web isolation. |
+| **[AppOnFly](https://www.apponfly.com/)** | AppOnFly | ~$20 Million Valuation | $18.00/month (Windows VPS Desktop) | 30-minute instant free trial without credit card registration | Instant, browser-based Windows VPS access streaming directly inside web tabs or over RDP protocols. |
+| **[Shells](https://www.shells.com/)** | Shells.com Inc. | ~$15 Million Valuation | $4.95/month (Basic: 1 vCPU, 2GB RAM, 40GB SSD) | 7-day money-back guarantee with risk-free testing periods | Personal cloud computer service streaming Ubuntu, Debian, Fedora, and Windows to smartphones, tablets, and web browsers. |
+| **[Neverinstall](https://neverinstall.com/)** | Neverinstall Inc. | ~$12 Million Valuation | $12.00/month (Standard plan with 8GB RAM, unlimited streaming) | Free tier: 1 vCPU, 3GB RAM, 5 hours streaming per month forever | Cloud OS and browser-native workspace streaming full Linux desktop distributions and GUI software without local installation. |
+| **[OS.js Enterprise](https://os-js.org/)** | OS.js Project / Community | Bootstrapped / Open-Source Commercial Support | Custom enterprise support contracts starting at ~$250.00/month | Free open-source software forever under BSD-2-Clause license | Managed hosting, custom adapter engineering, and commercial SLAs for the modular JavaScript web desktop platform. |
 
+---
 
+## 💻 Open-Source GitHub Projects 🛠️
 
-**Examples** include WebTop, Kasm Workspaces, LinuxServer.io, DaedalOS, Windows 365, Amazon WorkSpaces, Paperspace Core, AppOnFly, Dizzion Frame, OS.js, and `rome-os/rome` (the category leaders).
+*Ranked in descending order by GitHub stargazer count. Every star badge links directly to that repository's stargazers community.*
 
+| Project & Repository 📦 | GitHub Stars ⭐ | Primary Tech Stack 🧰 | Architecture & Focus 🎯 |
+| :--- | :--- | :--- | :--- |
+| **[RustDesk](https://github.com/rustdesk/rustdesk)** | [![Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers) | Rust, Flutter, C++ | Full-featured open-source remote desktop client and server software designed as a self-hostable alternative to TeamViewer with an official HTML5 web client. |
+| **[Puter](https://github.com/HeyPuter/puter)** | [![Stars](https://img.shields.io/github/stars/HeyPuter/puter?style=social&color=white)](https://github.com/HeyPuter/puter/stargazers) | JavaScript, Node.js, HTML5 | Internet OS and browser desktop platform providing personal cloud storage, in-browser code editing, window management, and native AI integrations. |
+| **[Sunshine](https://github.com/SunshineStream/Sunshine)** | [![Stars](https://img.shields.io/github/stars/SunshineStream/Sunshine?style=social&color=white)](https://github.com/SunshineStream/Sunshine/stargazers) | C++, WebAssembly, WebRTC | Self-hosted low-latency game and desktop streaming host server with hardware encoding (NVENC, Intel QuickSync, AMD AMF) supporting Moonlight and WebRTC clients. |
+| **[v86](https://github.com/copy/v86)** | [![Stars](https://img.shields.io/github/stars/copy/v86?style=social&color=white)](https://github.com/copy/v86/stargazers) | Rust, WebAssembly, JavaScript | Complete x86-compatible PC emulator and JIT compiler running in the browser, capable of booting Linux, Windows 95/98/2000, KolibriOS, and FreeDOS. |
+| **[Neko](https://github.com/m1k1o/neko)** | [![Stars](https://img.shields.io/github/stars/m1k1o/neko?style=social&color=white)](https://github.com/m1k1o/neko/stargazers) | Go, Vue.js, WebRTC, Docker | Self-hosted virtual browser and desktop container streaming engine enabling synchronized multi-user screen sharing, audio transmission, and collaborative control. |
+| **[WebVM](https://github.com/leaningtech/webvm)** | [![Stars](https://img.shields.io/github/stars/leaningtech/webvm?style=social&color=white)](https://github.com/leaningtech/webvm/stargazers) | C++, WebAssembly, CheerpX | Serverless x86 Linux virtual machine running Debian Linux and graphical X11 desktop environments entirely client-side in the browser via WebAssembly. |
+| **[Cockpit](https://github.com/cockpit-project/cockpit)** | [![Stars](https://img.shields.io/github/stars/cockpit-project/cockpit?style=social&color=white)](https://github.com/cockpit-project/cockpit/stargazers) | C, JavaScript, Python | Web-based graphical server administration and desktop interface offering real-time system monitoring, container controls, and terminal access in modern browsers. |
+| **[noVNC](https://github.com/novnc/noVNC)** | [![Stars](https://img.shields.io/github/stars/novnc/noVNC?style=social&color=white)](https://github.com/novnc/noVNC/stargazers) | JavaScript, HTML5 Canvas, WebSockets | Core open-source HTML5 VNC client library using WebSockets to connect browsers to remote Linux and Windows X11 desktops without native plugins. |
+| **[FreeRDP](https://github.com/FreeRDP/FreeRDP)** | [![Stars](https://img.shields.io/github/stars/FreeRDP/FreeRDP?style=social&color=white)](https://github.com/FreeRDP/FreeRDP/stargazers) | C, CMake | Free implementation of the Remote Desktop Protocol (RDP) powering high-performance HTML5 and WebRTC browser gateways worldwide. |
+| **[daedalOS](https://github.com/DustinBrett/daedalOS)** | [![Stars](https://img.shields.io/github/stars/DustinBrett/daedalOS?style=social&color=white)](https://github.com/DustinBrett/daedalOS/stargazers) | TypeScript, Next.js, React | Feature-rich web desktop environment running inside browsers with file system abstraction, media players, Monaco editor, and built-in retro emulators. |
+| **[Win11React](https://github.com/blueedgetechno/win11React)** | [![Stars](https://img.shields.io/github/stars/blueedgetechno/win11React?style=social&color=white)](https://github.com/blueedgetechno/win11React/stargazers) | React, CSS, JavaScript | Interactive Windows 11 replica running in modern web browsers complete with Start Menu, File Explorer, Edge browser, Terminal, and responsive window snapping. |
+| **[macintosh.js](https://github.com/felixrieseberg/macintosh.js)** | [![Stars](https://img.shields.io/github/stars/felixrieseberg/macintosh.js?style=social&color=white)](https://github.com/felixrieseberg/macintosh.js/stargazers) | JavaScript, Electron, WebAssembly | Virtual 1991 Macintosh Quadra 900 running Mac OS 8 with bundled classic programs, games, and web-ready emulator runtimes. |
+| **[MeshCentral](https://github.com/Ylianst/MeshCentral)** | [![Stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers) | JavaScript, Node.js | Comprehensive remote device management and desktop control web portal supporting browser-based remote control, file transfer, and Intel AMT hardware access. |
+| **[OS.js](https://github.com/os-js/OS.js)** | [![Stars](https://img.shields.io/github/stars/os-js/OS.js?style=social&color=white)](https://github.com/os-js/OS.js/stargazers) | JavaScript, Webpack, Node.js | Modular, extensible JavaScript web desktop platform featuring complete window manager, application SDK, theme engine, and virtual filesystem providers. |
+| **[xrdp](https://github.com/neutrinolabs/xrdp)** | [![Stars](https://img.shields.io/github/stars/neutrinolabs/xrdp?style=social&color=white)](https://github.com/neutrinolabs/xrdp/stargazers) | C, Shell | Open-source Remote Desktop Protocol (RDP) server for Linux systems enabling browser-based access when paired with Apache Guacamole or web gateways. |
+| **[KasmVNC](https://github.com/kasmtech/KasmVNC)** | [![Stars](https://img.shields.io/github/stars/kasmtech/KasmVNC?style=social&color=white)](https://github.com/kasmtech/KasmVNC/stargazers) | C, C++, JavaScript | Modern web-native VNC server engineered for browsers featuring WebP/JPEG video encoding, clipboard synchronization, and multi-monitor streaming. |
+| **[LinuxServer Webtop](https://github.com/linuxserver/docker-webtop)** | [![Stars](https://img.shields.io/github/stars/linuxserver/docker-webtop?style=social&color=white)](https://github.com/linuxserver/docker-webtop/stargazers) | Dockerfile, Shell, Python | Production-ready Alpine and Ubuntu Docker images packaging XFCE, KDE, MATE, i3, and Openbox desktops streaming to browsers via KasmVNC/Selkies. |
+| **[Websockify](https://github.com/novnc/websockify)** | [![Stars](https://img.shields.io/github/stars/novnc/websockify?style=social&color=white)](https://github.com/novnc/websockify/stargazers) | Python, C, JavaScript | Universal WebSocket-to-TCP proxy and bridge allowing web browsers to connect to standard VNC, RDP, and Telnet desktop ports. |
+| **[Ubuntu Web Desktop](https://github.com/vivek9patel/vivek9patel.github.io)** | [![Stars](https://img.shields.io/github/stars/vivek9patel/vivek9patel.github.io?style=social&color=white)](https://github.com/vivek9patel/vivek9patel.github.io/stargazers) | Next.js, React, Tailwind CSS | Sleek interactive web simulation of Ubuntu 20.04 GNOME desktop environment complete with terminal, text editor, Spotify player, and Google Chrome mock. |
+| **[Apache Guacamole Server](https://github.com/apache/guacamole-server)** | [![Stars](https://img.shields.io/github/stars/apache/guacamole-server?style=social&color=white)](https://github.com/apache/guacamole-server/stargazers) | C, Autotools | Native server proxy daemon (`guacd`) translating VNC, RDP, and SSH protocols into Guacamole protocol packets for clientless web browser sessions. |
+| **[container2wasm](https://github.com/container2wasm/container2wasm)** | [![Stars](https://img.shields.io/github/stars/container2wasm/container2wasm?style=social&color=white)](https://github.com/container2wasm/container2wasm/stargazers) | Go, WebAssembly, Bochs | Container-to-Wasm emulator converter that packages standard Linux container images and GUI environments to execute client-side inside web browsers. |
+| **[Selkies](https://github.com/selkies-project/selkies)** | [![Stars](https://img.shields.io/github/stars/selkies-project/selkies?style=social&color=white)](https://github.com/selkies-project/selkies/stargazers) | Python, GStreamer, WebRTC | Low-latency WebRTC accelerated remote desktop and container streaming platform designed for Kubernetes, HPC clusters, and cloud GPU instances. |
+| **[Wolf](https://github.com/games-on-whales/wolf)** | [![Stars](https://img.shields.io/github/stars/games-on-whales/wolf?style=social&color=white)](https://github.com/games-on-whales/wolf/stargazers) | C++, Docker, Wayland | High-performance open-source Docker-based cloud desktop and gaming stream server with virtualized GPU acceleration. |
+| **[Apache Guacamole Client](https://github.com/apache/guacamole-client)** | [![Stars](https://img.shields.io/github/stars/apache/guacamole-client?style=social&color=white)](https://github.com/apache/guacamole-client/stargazers) | Java, JavaScript | Standard clientless HTML5 web application and frontend gateway providing browser access to VNC, RDP, and SSH remote servers. |
+| **[BoxedWine](https://github.com/danoon2/Boxedwine)** | [![Stars](https://img.shields.io/github/stars/danoon2/Boxedwine?style=social&color=white)](https://github.com/danoon2/Boxedwine/stargazers) | C++, Emscripten, WebAssembly | Open-source x86 emulator running 32-bit Windows applications, games, and desktop runtimes directly in modern web browsers via Emscripten. |
+| **[Rome OS](https://github.com/rome-os/rome)** | [![Stars](https://img.shields.io/github/stars/rome-os/rome?style=social&color=white)](https://github.com/rome-os/rome/stargazers) | TypeScript, Node.js | Compounding Agent OS and modular web-native workspace environment designed for recursive autonomous AI agents and browser tasks. |
+| **[Kasm Workspaces Core Images](https://github.com/kasmtech/workspaces-core-images)** | [![Stars](https://img.shields.io/github/stars/kasmtech/workspaces-core-images?style=social&color=white)](https://github.com/kasmtech/workspaces-core-images/stargazers) | Dockerfile, Shell | Docker container workspace definitions powering isolated browser-delivered desktop sessions (Ubuntu, Debian, Fedora, CentOS, and Kali Linux). |
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for Dockerized browser desktops, WebRTC remote desktop streamers, pure client-side WebOS environments, WebAssembly/x86/Linux browser emulators, and self-hosted VDI gateways — ideal for homelabbers, DevOps engineers, security researchers, and web OS developers.
+## 📈 Star History 🌟
 
+#[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Web-Desktop-Environments-Operating-Systems&type=date&legend=top-left)
 
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## 💖 Support & Sponsorship 🙏
 
+If you find this curated collection of **Web Desktop Environments & Operating Systems** valuable for your homelab, research, or enterprise infrastructure, please consider showing your support:
 
+- 🌟 **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork the project** and contribute additions or updates.
+- 📢 **Share with your developer network**, on Discord, Reddit, or X (Twitter).
+- ☕ **Buy a coffee or sponsor development**: Support continued maintenance and curated lists via the official [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
-## Table of Contents
+Thank you for being part of the open-source community! 💖
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
+---
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+## 🤝 How to Contribute 🛠️
 
-- [How to Contribute](#how-to-contribute)
+Contributions are warmly welcomed! To add a new platform, framework, or open-source web desktop project:
 
-- [Disclaimer](#disclaimer)
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/new-desktop-platform`.
+3. Add your entry to either the **SaaS Table** or **Open-Source Projects Table** maintaining the alphabetical/star-count sorting order.
+4. Provide factual pricing, documentation, and live repo URLs.
+5. Commit and open a Pull Request!
 
+---
 
+## ⚖️ Disclaimer 📄
 
-## SaaS/Hosted Platforms
-
-
-
-- **[Windows 365 (Microsoft Cloud PC)](https://microsoft.com)**  
-
-  Microsoft's official Desktop-as-a-Service (DaaS) platform streaming a persistent, personalized Windows 11 desktop and apps from the cloud to any HTML5 web browser.
-
-
-
-- **[Amazon WorkSpaces](https://amazon.com)**  
-
-  Managed, secure cloud desktop service from AWS enabling organizations to provision Windows and Linux virtual desktops accessible via web browsers and thin clients.
-
-
-
-- **[Kasm Workspaces Cloud](https://kasmweb.com)**  
-
-  Enterprise container-streaming platform delivering isolated, browser-based Linux and Windows desktops, disposable web browsers, and GPU-accelerated workstations.
-
-
-
-- **[DigitalOcean Paperspace Core](https://paperspace.com)**  
-
-  Cloud workstation and GPU-accelerated virtual desktop platform offering low-latency browser streaming for 3D rendering, AI development, and remote engineering.
-
-
-
-- **[Dizzion Frame (formerly Nutanix Frame)](https://dizzion.com)**  
-
-  Cloud-native Desktop-as-a-Service platform delivering Windows and Linux applications and full desktops directly inside any modern browser without plugins.
-
-
-
-- **[AppOnFly](https://apponfly.com)**  
-
-  Instant cloud Windows VPS and remote desktop hosting service accessible directly in a web browser or via RDP for testing and productivity.
-
-
-
-- **[Shells](https://shells.com)**  
-
-  Personal cloud computer service offering instant browser-accessible Ubuntu, Debian, Fedora, and Windows virtual desktops from any phone, tablet, or laptop.
-
-
-
-- **[Google Cloud Workstations](https://google.com)**  
-
-  Managed, pre-configured cloud development environments accessible via a browser-based IDE or full graphical desktop session inside Google Cloud.
-
-
-
-- **[Azure Virtual Desktop](https://microsoft.com)**  
-
-  Cloud VDI platform delivering multi-session Windows 11 desktops and remote applications securely over HTML5 web clients.
-
-
-
-- **[Neverinstall](https://neverinstall.com)**  
-
-  Cloud OS and browser-native workspace streaming Linux desktop distributions and heavy GUI applications directly inside a web tab.
-
-
-
-- **[OS.js Enterprise / Hosted](https://os-js.org)**  
-
-  Managed cloud deployment and enterprise support options for the modular JavaScript web desktop environment framework.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Rome OS (rome-os/rome)](https://github.com)**  
-
-  Open-source browser-based desktop environment and web operating system referenced in the seed list (`rome-os/rome`) designed for modular web-native workspaces.
-
-
-
-- **[LinuxServer.io Webtop (linuxserver/docker-webtop)](https://github.com)**  
-
-  Popular open-source collection of Alpine and Ubuntu-based Docker containers running full XFCE, KDE, MATE, i3, and Openbox Linux desktops accessible via any modern browser using Selkies/KasmVNC.
-
-
-
-- **[KasmVNC (kasmtech/KasmVNC)](https://github.com)**  
-
-  Modern, open-source high-performance VNC server engineered for web browsers featuring WebP/JPEG encoding, hardware-accelerated video streaming, multi-monitor support, and clipboard/audio sync.
-
-
-
-- **[Selkies-GStreamer (selkies-project/selkies-gstreamer)](https://github.com)**  
-
-  Open-source low-latency WebRTC remote desktop and GPU-accelerated Linux container streaming engine supporting 60+ FPS video, gamepad passthrough, and WebSockets/WebRTC transport.
-
-
-
-- **[DaedalOS (DustinBrett/daedalOS)](https://github.com)**  
-
-  Feature-packed open-source desktop environment running entirely in the browser with Next.js, featuring a virtual filesystem, x86/DOS/RetroArch emulators, Monaco code editor, and window manager.
-
-
-
-- **[OS.js (os-js/OS.js)](https://github.com)**  
-
-  Extensible open-source JavaScript web desktop platform with a full window manager, virtual filesystem adapters (Google Drive, WebDAV, local), themes, and application SDK.
-
-
-
-- **[Puter (HeyPuter/puter)](https://github.com)**  
-
-  Advanced open-source Internet OS and self-hosted personal cloud desktop built with vanilla JavaScript, offering a sleek macOS/Windows-style UI, cloud storage, web hosting, and AI integrations.
-
-
-
-- **[Win11React (blueedgetechno/win11React)](https://github.com)**  
-
-  Open-source replication of the Windows 11 desktop experience built with React, CSS, and Redux featuring Start Menu, File Explorer, Edge browser, terminal, and window snapping.
-
-
-
-- **[Ubuntu Web Desktop (vivek9patel/vivek9patel.github.io)](https://github.com)**  
-
-  Open-source interactive Ubuntu 20.04 GNOME desktop simulation built with Next.js and Tailwind CSS featuring a functional terminal, VS Code, and settings manager.
-
-
-
-- **[Neko (m1k1o/neko)](https://github.com)**  
-
-  Self-hosted open-source virtual browser and desktop streaming container powered by WebRTC, enabling collaborative multi-user screen control, audio streaming, and isolated browsing.
-
-
-
-- **[Apache Guacamole (apache/guacamole-client)](https://github.com)**  
-
-  Industry-standard open-source clientless remote desktop gateway supporting VNC, RDP, and SSH natively in HTML5 without plugins or client software.
-
-
-
-- **[RustDesk (rustdesk/rustdesk)](https://github.com)**  
-
-  Open-source remote desktop infrastructure written in Rust featuring a self-hostable rendezvous/relay server and an official HTML5 web client (`rustdesk-web`).
-
-
-
-- **[MeshCentral (Ylianst/MeshCentral)](https://github.com)**  
-
-  Full-featured open-source remote computer management web portal providing browser-based desktop control, terminal access, file transfer, and Intel AMT management.
-
-
-
-- **[noVNC (novnc/noVNC)](https://github.com)**  
-
-  Foundational open-source HTML5 VNC client library and web application enabling browser access to any VNC-enabled Linux, Windows, or macOS desktop over WebSockets.
-
-
-
-- **[xrdp (neutrinolabs/xrdp)](https://github.com)**  
-
-  Open-source Remote Desktop Protocol (RDP) server for Linux systems that pairs with Apache Guacamole or HTML5 RDP gateways for browser-based desktop sessions.
-
-
-
-- **[v86 (copy/v86)](https://github.com)**  
-
-  Open-source x86-compatible PC emulator compiled to WebAssembly that boots full operating systems (Linux, Windows 95/98/2000, FreeDOS, KolibriOS, Haiku) directly inside a web browser.
-
-
-
-- **[WebVM (leaningtech/webvm)](https://github.com)**  
-
-  Serverless open-source x86 Linux virtual machine running a full Debian distribution and graphical X11/i3 desktop entirely client-side in the browser via CheerpX WebAssembly.
-
-
-
-- **[JSLinux / TinyEMU (bellard/tinyemu)](https://github.com)**  
-
-  Open-source RISC-V and x86 system emulator created by Fabrice Bellard capable of booting full graphical Linux desktops inside WebAssembly.
-
-
-
-- **[BoxedWine (danoon2/BoxedWine)](https://github.com)**  
-
-  Open-source x86 emulator running Windows applications and desktop environments natively inside browsers via Emscripten and WebAssembly.
-
-
-
-- **[QEMU WebAssembly / container2wasm (ktock/container2wasm)](https://github.com)**  
-
-  Open-source container-to-WebAssembly converter using Bochs/TinyEMU to run Linux containers and lightweight desktop environments purely inside browser sandboxes.
-
-
-
-- **[Sunshine (LizardByte/Sunshine)](https://github.com)**  
-
-  Self-hosted open-source low-latency game and desktop stream host supporting hardware encoding (NVENC, VAAPI, QuickSync) and pairing with WebRTC/Moonlight web clients.
-
-
-
-- **[Wolf — Games on Whales (games-on-whales/wolf)](https://github.com)**  
-
-  Open-source Docker-based multi-user cloud desktop and gaming streaming server delivering isolated Wayland/X11 sessions with virtual GPU acceleration.
-
-
-
-- **[Cockpit (cockpit-project/cockpit)](https://github.com)**  
-
-  Red Hat-backed open-source web-based graphical interface for Linux servers providing interactive terminal, storage, networking, and container management in the browser.
+*All trademarks, logos, and brand names mentioned in this repository are the property of their respective owners. Mention of SaaS providers and open-source projects does not imply official endorsement or sponsorship.*

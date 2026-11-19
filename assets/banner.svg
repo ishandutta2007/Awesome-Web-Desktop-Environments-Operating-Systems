@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Clip Path for Window Frame -->
+    <clipPath id="windowClip">
+      <rect x="0" y="0" width="1120" height="340" rx="16" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .terminal-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 800; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 600; }
+    
+    @keyframes pulseOrb {
+      0% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.18) translate(30px, -20px); opacity: 0.6; }
+      100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+    }
+    
+    @keyframes pulseCyan {
+      0% { transform: scale(1) translate(0, 0); opacity: 0.25; }
+      50% { transform: scale(1.15) translate(-25px, 20px); opacity: 0.5; }
+      100% { transform: scale(1) translate(0, 0); opacity: 0.25; }
+    }
+
+    @keyframes floatPill1 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+      100% { transform: translateY(0px); }
+    }
+
+    @keyframes floatPill2 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+      100% { transform: translateY(0px); }
+    }
+
+    @keyframes dashCycle {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -120; }
+    }
+
+    .anim-orb1 { animation: pulseOrb 9s ease-in-out infinite; transform-origin: 250px 120px; }
+    .anim-orb2 { animation: pulseCyan 11s ease-in-out infinite; transform-origin: 950px 280px; }
+    .anim-pill1 { animation: floatPill1 5s ease-in-out infinite; }
+    .anim-pill2 { animation: floatPill2 6s ease-in-out infinite; }
+    .anim-stream { stroke-dasharray: 8, 8; animation: dashCycle 6s linear infinite; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="20" />
+
+  <!-- Animated Glowing Ambience Orbs in Background -->
+  <g>
+    <circle cx="220" cy="110" r="170" fill="#6366f1" filter="url(#glow)" class="anim-orb1" />
+    <circle cx="980" cy="270" r="190" fill="#06b6d4" filter="url(#glow)" class="anim-orb2" />
+    <circle cx="600" cy="380" r="140" fill="#ec4899" filter="url(#glow)" opacity="0.18" />
+  </g>
+
+  <!-- Subtle Matrix Grid -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="420" />
+    <line x1="180" y1="0" x2="180" y2="420" />
+    <line x1="300" y1="0" x2="300" y2="420" />
+    <line x1="420" y1="0" x2="420" y2="420" />
+    <line x1="540" y1="0" x2="540" y2="420" />
+    <line x1="660" y1="0" x2="660" y2="420" />
+    <line x1="780" y1="0" x2="780" y2="420" />
+    <line x1="900" y1="0" x2="900" y2="420" />
+    <line x1="1020" y1="0" x2="1020" y2="420" />
+    <line x1="1140" y1="0" x2="1140" y2="420" />
+    
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+  </g>
+
+  <!-- Main Glassmorphism OS Window Container -->
+  <g transform="translate(40, 40)">
+    <!-- Window Outer Shell -->
+    <rect width="1120" height="340" rx="16" fill="url(#glassGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+
+    <!-- Window Titlebar -->
+    <rect width="1120" height="42" rx="16" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    <!-- Flatten bottom corners of titlebar -->
+    <rect x="0" y="24" width="1120" height="18" fill="rgba(15, 23, 42, 0.75)" />
+    <line x1="0" y1="42" x2="1120" y2="42" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+    <!-- macOS Style Window Controls -->
+    <circle cx="28" cy="21" r="6" fill="#ef4444" />
+    <circle cx="48" cy="21" r="6" fill="#f59e0b" />
+    <circle cx="68" cy="21" r="6" fill="#10b981" />
+
+    <!-- Address / URL Search Pill -->
+    <rect x="360" y="9" width="400" height="24" rx="6" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    <text x="560" y="25" fill="#94a3b8" font-size="11" class="terminal-text" text-anchor="middle">
+      🔒 https://os.web.cloud/desktop-runtime/vdi
+    </text>
+
+    <!-- Animated Data Stream Lines (In background of content) -->
+    <path d="M 120 270 Q 300 240, 560 270 T 1000 250" fill="none" stroke="rgba(99, 102, 241, 0.22)" stroke-width="2" class="anim-stream" />
+    <path d="M 80 295 Q 350 330, 640 295 T 1040 310" fill="none" stroke="rgba(6, 182, 212, 0.22)" stroke-width="2" class="anim-stream" />
+
+    <!-- Top Badge Pill -->
+    <g transform="translate(435, 68)">
+      <rect width="250" height="28" rx="14" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1" />
+      <text x="125" y="18" fill="#a5b4fc" font-size="11.5" class="badge-text" text-anchor="middle" letter-spacing="1">
+        ⚡ AWESOME WEB DESKTOP &amp; OS
+      </text>
+    </g>
+
+    <!-- Main Title (Guaranteed Sharp Foreground) -->
+    <text x="560" y="145" class="title-text" text-anchor="middle" font-size="34" fill="#ffffff" letter-spacing="-0.5">
+      Web Desktop Environments &amp; Operating Systems
+    </text>
+
+    <!-- Subtitle (Clear and Readable) -->
+    <text x="560" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="middle" font-size="15" fill="#cbd5e1" font-weight="400">
+      Curated Ecosystem of Browser-Based OS, Containerized Desktops, WebAssembly Runtimes &amp; VDI Streaming
+    </text>
+
+    <!-- Interactive / Floating Category Pills -->
+    <g class="anim-pill1" transform="translate(110, 225)">
+      <!-- Pill 1: WebAssembly & x86 -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(244, 63, 94, 0.45)" stroke-width="1.2" />
+        <text x="90" y="22" fill="#fda4af" font-size="12" class="badge-text" text-anchor="middle">⚙️ WASM / x86 Emulators</text>
+      </g>
+      <!-- Pill 2: WebRTC Remote Streaming -->
+      <g transform="translate(200, 0)">
+        <rect width="215" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(99, 102, 241, 0.5)" stroke-width="1.2" />
+        <text x="107" y="22" fill="#c7d2fe" font-size="12" class="badge-text" text-anchor="middle">🌐 WebRTC &amp; VNC Streaming</text>
+      </g>
+      <!-- Pill 3: Docker & Linux Desktops -->
+      <g transform="translate(435, 0)">
+        <rect width="220" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(6, 182, 212, 0.5)" stroke-width="1.2" />
+        <text x="110" y="22" fill="#a5f3fc" font-size="12" class="badge-text" text-anchor="middle">🐳 Dockerized Linux Webtops</text>
+      </g>
+      <!-- Pill 4: Cloud VDI & DaaS -->
+      <g transform="translate(675, 0)">
+        <rect width="215" height="34" rx="8" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(16, 185, 129, 0.5)" stroke-width="1.2" />
+        <text x="107" y="22" fill="#a7f3d0" font-size="12" class="badge-text" text-anchor="middle">☁️ Cloud VDI &amp; DaaS Platforms</text>
+      </g>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <g transform="translate(40, 290)">
+      <circle cx="8" cy="8" r="4" fill="#22c55e" />
+      <text x="22" y="12" fill="#94a3b8" font-size="11" class="terminal-text">System Status: 100% Operational • 30+ Curated Open-Source &amp; SaaS Solutions</text>
+    </g>
+  </g>
+</svg>
